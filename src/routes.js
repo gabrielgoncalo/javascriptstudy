@@ -16,4 +16,11 @@ module.exports = [
 
     },
 
+    {
+        endpoint: '/users',
+        method: 'POST',
+        handler: UserController.createUser,
+
+    },
+
 ];
